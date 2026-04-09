@@ -3,6 +3,7 @@
  * @return {boolean}
  */
 
+//вариант "Два указателя"
 var isPalindrome = function(x) {
     const map = x.toString().split('').map(Number);
 
@@ -10,4 +11,10 @@ var isPalindrome = function(x) {
         if(map[i] !== map[j]) return false;
     }
     return true;
+};
+
+//вариант с помощью реверс
+var isPalindrome = function(x) {
+    const map = x.toString().split('').map(Number);
+    return map.toString() === map.toReversed().toString();
 };
