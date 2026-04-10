@@ -1,5 +1,5 @@
 # Palindrome-Number
-Задача с [Leetcode](https://leetcode.com/problems/palindrome-number/description/)
+Задача с [Leetcode](https://leetcode.com/problems/palindrome-number/description/)  
 Сложность: *Easy*
 
 ## Описание задачи
